@@ -1,4 +1,4 @@
-# LaScala
+# LaScala [![CircleCI](https://circleci.com/gh/yingy4/LaScala.svg?style=svg)](https://circleci.com/gh/yingy4/LaScala)
 This package, developed by Phasmid Software and Dataflowage Inc. provides a smorgasbord of functional and general
 utility libraries:
 
