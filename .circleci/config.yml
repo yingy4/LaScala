@@ -44,4 +44,4 @@ jobs:
       - run: cat /dev/null | sbt publish-local
       
       - store_artifacts:
-          path: ${user.home}/.ivy2/local
+          path: /home/circleci/.ivy2/local
