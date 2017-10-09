@@ -42,5 +42,6 @@ jobs:
       - run: cat /dev/null | sbt "test-only -- -l org.scalatest.tags.Slow"
       
       - run: cat /dev/null | sbt publish-local
+      
       - store_artifacts:
-        path: ${user.home}/.ivy2/local
+          path: ${user.home}/.ivy2/local
