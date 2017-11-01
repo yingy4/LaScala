@@ -32,7 +32,7 @@ jobs:
           - v1-dependencies-
           
       #buildinfo
-      - run: cat /dev/null | sbt buildinfo
+      - run: cat /dev/null | sbt buildInfo
       # compile
       - run: cat /dev/null | sbt test:compile
 
